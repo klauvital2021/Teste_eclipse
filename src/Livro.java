@@ -2,6 +2,10 @@
 public class Livro {
 
 	private String titulo;
+	private int numPaginas;
+	private String Autor;
+	
+	
 	
 	public void emprestar() {
 		
@@ -10,4 +14,5 @@ public class Livro {
 	public void devolver() {
 		
 	}
+	
 }
